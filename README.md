@@ -1,5 +1,8 @@
 # 介绍 
-只需要普通的纹理图片，通过算法生成高度贴图，配合shader生成表面凹凸效果，通过算法生成法线贴图，配合shader生成光照效果 
+只需要普通的纹理图片，通过算法生成高度贴图，配合shader生成表面凹凸效果，通过算法生成法线贴图，配合shader生成光照效果  
+# unity版本 
+unity 2021.3.45f1
+
 # 部分代码 
 ```
 Constant Buffer "$Globals" (128 bytes) on slot 0 {
