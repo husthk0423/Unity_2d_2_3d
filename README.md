@@ -1,5 +1,8 @@
 # 介绍 
-
+只需要普通的纹理图片，通过算法生成高度贴图，配合shader生成表面凹凸效果，通过算法生成法线贴图，配合shader生成光照效果 
+# 部分代码 
+'''
+'''
 # 截图 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   <!-- 第1行 -->
