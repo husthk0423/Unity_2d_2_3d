@@ -1,8 +1,24 @@
 # 介绍 
 只需要普通的纹理图片，通过算法生成高度贴图，配合shader生成表面凹凸效果，通过算法生成法线贴图，配合shader生成光照效果 
 # 部分代码 
-'''
-'''
+```
+Constant Buffer "$Globals" (128 bytes) on slot 0 {
+  Vector4 _LightColor0 at 32
+  Float _Glossiness at 80
+  Float _Metallic at 84
+  Float _AOPower at 92
+  Vector4 _Color at 96
+}
+Constant Buffer "UnityPerCamera" (144 bytes) on slot 1 {
+  Vector3 _WorldSpaceCameraPos at 64
+}
+Constant Buffer "UnityLighting" (768 bytes) on slot 2 {
+  Vector4 _WorldSpaceLightPos0 at 0
+  Vector4 unity_OcclusionMaskSelector at 736
+}
+
+```
+
 # 截图 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   <!-- 第1行 -->
@@ -20,5 +36,11 @@
   <img src="https://github.com/user-attachments/assets/5fda219d-ce6e-4e85-a7a5-4faf45c82bbe" width="80%">
   <!-- 重复至5行 -->
   <!-- ... -->
-</div>
+</div>  
+
+# 联系  
+
+ ## 1 完整版本、工作内推（武汉）  
+ 
+ <img src="https://github.com/user-attachments/assets/16a23a4f-2687-4848-8be7-b39eae562ee1" width="400" height="400"> 
 
